@@ -1,0 +1,27 @@
+{
+  "name": "amazon-gather-order-history",
+  "version": "0.0.0",
+  "description": "1. Open https://www.amazon.co.jp/gp/css/order-history 2. Enter `javascript:(function(s){s.src='http://motemen.github.io/amazon-gather-order-history/gatherer.js';document.body.appendChild(s)}(document.createElement('script'))`",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.1"
+  },
+  "devDependencies": {
+    "grunt-typescript": "~0.2.4",
+    "grunt-gh-pages": "~0.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "motemen <http://motemen.github.io/>",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/motemen/amazon-gather-order-history.git"
+  },
+  "bugs": {
+    "url": "https://github.com/motemen/amazon-gather-order-history/issues"
+  },
+  "private": true
+}
