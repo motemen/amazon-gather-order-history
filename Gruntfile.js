@@ -12,19 +12,10 @@ module.exports = function (grunt) {
                     base_path: 'src/'
                 }
             }
-        },
-
-        'gh-pages': {
-            options: {
-                base: 'dist'
-            },
-            src: ['**']
         }
     });
 
     grunt.loadNpmTasks('grunt-typescript');
-    grunt.loadNpmTasks('grunt-gh-pages');
 
     grunt.registerTask('default', [ 'typescript' ]);
-    grunt.registerTask('publish', [ 'typescript' ]);
 };

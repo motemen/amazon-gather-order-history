@@ -7,8 +7,7 @@
     "grunt": "~0.4.1"
   },
   "devDependencies": {
-    "grunt-typescript": "~0.2.4",
-    "grunt-gh-pages": "~0.8.1"
+    "grunt-typescript": "~0.2.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
